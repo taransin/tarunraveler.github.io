@@ -1,26 +1,68 @@
-html,body{
-    height:100%;
-    min-height: 100%;
-}
+body {
+  margin-top: 56px;
+  background-color: #1C1C1C;
+  height: 100%; }
 
-#wrapper{
-    height: 100%;
-}
+footer {
+  background-color: #425289; }
 
-.row{
-    height: 100%;
-    min-height: 100%;
-}
+.nav-item.active {
+  border-bottom: 3px #425289 solid; }
 
-.navbar{
-    overflow-y: hidden;
-}
+section .container {
+  background-color: #262626;
+  color: #E1DAE5; }
 
-.navbar-brand{
-    width: 100%;
-    text-align: center;
-}
+#recent .btn {
+  background-color: #425289; }
 
-#sidebar{
-    align-items: normal;
-}
+#recent .card {
+  background-color: #999;
+  color: black; }
+
+#summary a {
+  color: #425289;
+  text-decoration: none; }
+
+#summary a:hover {
+  text-shadow: #425289 1px 0px 1px; }
+
+#summary p {
+  font-size: 1.3rem; }
+
+#main-header {
+  background-color: #425289; }
+
+#skills {
+  font-size: 1.5rem; }
+  #skills ul {
+    list-style: none; }
+
+#projects .bricklayer {
+  border-left: 3px white solid; }
+
+#projects i {
+  font-size: 0.8em; }
+
+.card {
+  width: 18rem; }
+  .card .btn {
+    background-color: #425289;
+    color: #E1DAE5; }
+  .card .btn:hover {
+    border: 1px solid #6C88E2; }
+
+.pad {
+  padding: 1.5rem 2.5rem !important; }
+
+#contactMe .info, #contactMe a {
+  color: #297dc2;
+  font-size: 1.5em;
+  font-weight: bolder; }
+
+#contactMe .container .row p:hover {
+  transform: scale(1.1);
+  transition: transform 1s; }
+
+#contactMe .container .row p:hover:after {
+  text-shadow: 1px 1px white; }

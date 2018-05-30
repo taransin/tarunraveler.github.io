@@ -1,44 +1,103 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 <head>
-    <link href="css/style.css" type="text/css"  rel="stylesheet"/>
-
-    <!-- link href="css/bootstrap.css" rel="stylesheet" / -->
-
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-    <!-- Popper JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-
-
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Home Page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Main Page</title>
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/bricklayer.min.css">
 </head>
 <body>
-
-<div class="container-fluid fill-height" id="wrapper" >
-    <div class="row" >
-        <nav class="col-sm-2 navbar bg-dark navbar-dark text-right" id="sidebar" >
-            <ul class="navbar-nav">
-                <li class="navbar-brand" > Web Page</li>
-                <li class="active nav-item"><a class="nav-link" href=".">Home</a></li>
-                <li class="nav-item "><a class="nav-link" href=".">Page 2</a></li>
-                <li class="nav-item "><a class="nav-link" href=".">Page 3</a></li>
-            </ul>
-        </nav>
-        <div class="col-sm-10">
-            <h1 class="display-1"> Hello World!</h1>
-        </div>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a href="index.html" class="navbar-brand">TARANJIT SINGH</a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a href="projects.html" class="nav-link">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="playground.html" class="nav-link">Other</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </div>
     </div>
-</div>
+  </nav>
+
+<!-- PRESENTATION -->
+
+<section id="presentation" class="pt-4">
+  <div class="container">
+    <div class="row p-4">
+      <div class="col-md-4">
+        <img src="img/profile.jpg" class="img-fluid" alt="">
+      </div>
+      <div class="col-md-8 align-self-center">
+        <h3>HI!</h3>
+        <p>I'm Taranjit Singh, a student, a passionate programmer and a dreamer.</p>
+        <a href="about.html" class="btn btn-outline-light btn-lg"> Learn More</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="recent" class="py-4"   >
+  <div class="container">
+    <div class="row p-4">
+      <h1 class="display-4">Recent Activities</h1>
+      <div class="bricklayer ml-4 justify-content-start">
+
+        <div class="card m-4">
+          <img class="card-img-top" src="img\project_previews\exergame_preview.PNG" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Exergame for Dysgraphia</h5>
+            <h6 class="card-title text-muted">Work in progress...</h6>
+            <p class="card-text">This is my thesis work. It's an exergame that prevents dysgraphia in pre-scholar age children and improves writing ability. It's developed in Unity 3D for mobile/tablet.</p>
+            <a href="https://github.com/tarunraveler/ExergameForDysgraphia" class="btn ml-auto">GITHUB</a>
+          </div>
+        </div>
+
+        <div class="card m-4">
+          <img class="card-img-top" src="img\project_previews\home_preview2.PNG" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">HOME</h5>
+            <p class="card-text">Game developed during the Global Game Jam 2018. The jam theme was "transmission".</p>
+            <a href="https://globalgamejam.org/2018/games/home-0" class="btn ml-auto">JAM Page</a>
+          </div>
+        </div>
+
+        <div class="card m-4">
+          <img class="card-img-top" src="img\project_previews\carolines-journey_preview.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Caroline's Journey</h5>
+            <p class="card-text">Game developed during the course Game Design and Programming at Politecnico of Milan. It's a puzzle, platform game where you have to guide the lost Caroline toward her home. Many obstacles awaits her and helping others seems to be the way to get through them.</p>
+            <a href="https://polimi-game-collective.itch.io/carolines-journey" class="btn  ml-auto">Game Page</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/bricklayer.min.js"></script>
 </body>
 </html>
