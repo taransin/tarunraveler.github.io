@@ -11,7 +11,11 @@ footer {
 
 section .container {
   background-color: #262626;
-  color: #E1DAE5; }
+  color: #E1DAE5;
+  box-shadow: 0 0 0 1px #333, 1px 1px 6px 1px #000; }
+
+nav {
+  box-shadow: 0 1px 0 #666, 0 0 6px 0 #000; }
 
 #recent .btn {
   background-color: #425289; }
@@ -31,7 +35,8 @@ section .container {
   font-size: 1.3rem; }
 
 #main-header {
-  background-color: #425289; }
+  background-color: #425289;
+  box-shadow: 4px 4px 9px -3px #111; }
 
 #skills {
   font-size: 1.5rem; }
