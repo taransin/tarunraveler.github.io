@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html class="h-100" lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Work in progress...</title>
+  <link rel="stylesheet" href="../../css/font-awesome.min.css">
+  <link rel="stylesheet" href="../../css/bootstrap.css">
+  <link rel="stylesheet" href="../../css/style.css">
+
+
+</head>
+<body class="h-100 mt-0">
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container">
+      <a href="../../index.html" class="navbar-brand">TARANJIT SINGH</a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="../../index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="../../about.html" class="nav-link">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a href="../../projects.html" class="nav-link">Projects</a>
+          </li>
+          <li class="nav-item active">
+            <a href="../../playground.html" class="nav-link">Playground</a>
+          </li>
+          <li class="nav-item">
+            <a href="../../contact.html" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+    <header id="main-header" class="py-2 text-white bg-green">
+      <div class="container">
+        <div class="row">
+            <h1><i class="fa fa-play"></i> My Playground > Learning bootstrap </h1>
+        </div>
+      </div>
+    </header>
+
+
+
+  <section id="showcase" class="text-white h-100">
+    <div class="container-fluid my-4 px-sx-0 px-lg-4 h-100">
+      <div class="ml-4">
+              <ul class="pagination">
+
+                <li id="loopalabLi" class="page-item"><a href="#" class="page-link text-white bg-dark" onclick="return loadIframe('ifrm', 'looplab/index.html', '#looplabLi');">Looplab</a></li>
+
+                <li id="blogenLi" class="page-item"><a href="#" class="page-link text-white bg-dark" onclick="return loadIframe('ifrm', 'blogen/index.html', '#blogenLi');">Blogen</a></li>
+
+                <li id="glozzonLi" class="page-item"><a href="#" class="page-link text-white bg-dark" onclick="return loadIframe('ifrm', 'glozzon/index.html', '#glozzonLi');">Glozzon</a></li>
+
+                <li id="mizuxeLi" class="page-item"><a href="#" class="page-link text-white bg-dark" onclick="return loadIframe('ifrm', 'mizuxe/index.html', '#mizuxeLi');">Mizuxe</a></li>
+
+
+                <li id="portfolioLi" class="page-item disabled"><a href="#" class="page-link  bg-dark" onclick="return loadIframe('ifrm', 'portfoliogrid/index.html', '#portfolioLi');">PortfolioGrid</a></li>
+
+              </ul>
+      </div>
+
+        <div id="responsive-iframe" class="embed-responsive embed-responsive-16by9 ">
+          <iframe id="ifrm"class="embed-responsive-item" src="" allowfullscreen></iframe>
+        </div>
+
+
+      </iframe>
+    </div>
+  </section>
+
+
+
+  <script src="../../js/jquery.min.js"></script>
+  <script src="../../js/popper.min.js"></script>
+  <script src="../../js/bootstrap.min.js"></script>
+  <script src="loadIFrames.js"></script>
+
+</body>
+</html>

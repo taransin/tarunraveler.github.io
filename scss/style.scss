@@ -30,16 +30,7 @@ nav{
 }
 
 
-#recent{
-    .btn{
-      background-color: $blue ;
-    }
-    .card{
-      background-color: $gray;
-      color: black;
-    }
 
-}
 
 #summary{
   a{
@@ -88,11 +79,13 @@ nav{
   }
 }
 
-.pad{
-  padding: 1.5rem 2.5rem !important;
-}
 
 #contactMe{
+  .pad{
+    padding: 1.5rem 2.5rem !important;
+  }
+
+
   .info, a{
     color: rgb(41, 125, 194);
     font-size: 1.5em;
@@ -106,5 +99,23 @@ nav{
     .row p:hover:after{
       text-shadow: 1px 1px white;
     }
+  }
+}
+
+#playground{
+  hr {
+    height: 30px;
+    border-style: solid;
+    border-color: #8c8b8b;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+  }
+}
+
+
+#showcase{
+  .active > a{
+    background-color: $white !important;
+    color: $black !important;
   }
 }

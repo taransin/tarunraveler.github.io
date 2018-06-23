@@ -17,13 +17,6 @@ section .container {
 nav {
   box-shadow: 0 1px 0 #666, 0 0 6px 0 #000; }
 
-#recent .btn {
-  background-color: #425289; }
-
-#recent .card {
-  background-color: #999;
-  color: black; }
-
 #summary a {
   color: #425289;
   text-decoration: none; }
@@ -57,7 +50,7 @@ nav {
   .card .btn:hover {
     border: 1px solid #6C88E2; }
 
-.pad {
+#contactMe .pad {
   padding: 1.5rem 2.5rem !important; }
 
 #contactMe .info, #contactMe a {
@@ -71,3 +64,14 @@ nav {
 
 #contactMe .container .row p:hover:after {
   text-shadow: 1px 1px white; }
+
+#playground hr {
+  height: 30px;
+  border-style: solid;
+  border-color: #8c8b8b;
+  border-width: 1px 0 0 0;
+  border-radius: 20px; }
+
+#showcase .active > a {
+  background-color: #E1DAE5 !important;
+  color: #1C1C1C !important; }
