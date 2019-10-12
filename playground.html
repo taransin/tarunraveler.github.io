@@ -65,31 +65,13 @@
 
         <div class="row py-4">
           <div class="col">
-            <h4 class="display-4">Learning Bootstrap 4</h4>
-            <p class="lead pl-4">These are some websites I've developed while learning Bootstrap 4 following <a href="https://www.udemy.com/bootstrap-4-from-scratch-with-5-projects/">this</a> Udemy couse: <a href="playground\b4websites\showcase.html">showcase</a></p>
-
+            <h4 class="display-4">Procedural Generation</h4>
+            <p class="lead pl-4">Recently I've found out how fun it can be to generate stuff procedurally. Spent some good time generating swords images. 
+              Art generation can be quite surprising, too. (Click on the canvas below to regenerate)
+            </p>
+            <canvas id="tiled_lines_canvas" height="320" width="320" onClick="startDrawTiledLines()">
           </div>
         </div>
-
-        <hr>
-        <div class="row py-4">
-          <div class="col">
-            <h4 class="display-4">Learning new backend technologies</h4>
-            <p class="lead pl-4">I'm following an Udemy course on the backend part of the web dev. I'm learning NodeJs, Express and a non relational database like MongoDB. Once I worked on a project using PHP and a relational database like PostgreSQL, just wanted to learn something new and different.
-          </div>
-        </div>
-
-        <hr>
-        <div class="row py-4">
-          <div class="col">
-            <h4 class="display-4">Developing this website</h4>
-            <p class="lead pl-4">Yeah yeah.. I'm using Bootstrap 4. Though that's almost all I needed, behind the scenes I've used <abbr title="Node Package Manager" class="initialism">NPM</abbr> that I've recently started learn about. I've discovered <abbr title="Syntactically Awesome StyleSheets" class="initialism">SASS</abbr> (The name already says its awesome) and GULP while learning Bootstrap 4 and found out how useful they can be. I used them while developing my portfolio.</p>
-            <p class="lead pl-4">"I've seen Bootstrap 4 in your CV, but there's no little trace of the other technologies you've just told me about, why?" While I've got quite confident with Bootstrap 4, that's not true for the other ones. For example, I think the use I do of SASS is really basic (declaring variables and nesting styles) and the same goes for GULP. I've got a gulpfile written once and I'm using that one in every and each project. But that doesn't mean I don't understand it's content! Actually I had to put my hand on it while devepoling this portfolio.</p>
-
-          </div>
-        </div>
-
-
 
         <hr>
 
@@ -112,6 +94,7 @@
   <script src="js/jquery.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/generation/tiled_lines.js"></script>
 
 </body>
 </html>
